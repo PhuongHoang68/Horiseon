@@ -75,6 +75,31 @@ p {
     margin-left: 20px;
 }
 
+.content-box {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.content-box img {
+    max-height: 200px;
+}
+
+.content-specifics h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,41 +159,4 @@ p {
     max-width: 150px;
 }
 
-.content-box {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    overflow: auto;
-}
 
-.text-left {
-    text-align: left;
-}
-
-.content-box img {
-    max-height: 200px;
-}
-
-.content-specifics {
-    float: left;
-}
-
-.content-specifics h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
